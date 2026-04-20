@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Invitation | Aarav & Diya</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Great+Vibes&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="hero">
+        <div class="overlay">
+            <div class="hero-content">
+                <p class="invite-text">YOU ARE INVITED TO THE WEDDING OF</p>
+                <h1 class="couple-names">Aarav & Diya</h1>
+                <div class="divider"><span></span> ✨ <span></span></div>
+                <p class="wedding-date">DECEMBER 12, 2026</p>
+                <button class="cta-btn" onclick="scrollToEvents()">View Celebration Details</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="couple-section">
+        <h2 class="section-title">Meet the Couple</h2>
+        <div class="container flex-center">
+            <div class="couple-card">
+                <div class="img-frame">
+                    <img src="https://via.placeholder.com/200" alt="Groom"> 
+                </div>
+                <h3>Aarav</h3>
+                <p>The Groom</p>
+            </div>
+            <div class="heart-icon">❤️</div>
+            <div class="couple-card">
+                <div class="img-frame">
+                    <img src="https://via.placeholder.com/200" alt="Bride">
+                </div>
+                <h3>Diya</h3>
+                <p>The Bride</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="events" class="events-section">
+        <h2 class="section-title">Wedding Events</h2>
+        <div class="container event-grid">
+            <div class="event-box">
+                <div class="event-icon">💍</div>
+                <h3>The Engagement</h3>
+                <p><strong>Date:</strong> Dec 10, 2026</p>
+                <p><strong>Time:</strong> 6:00 PM onwards</p>
+                <p><strong>Venue:</strong> Grand Imperial Hotel, Delhi</p>
+            </div>
+            <div class="event-box">
+                <div class="event-icon">🔥</div>
+                <h3>The Wedding</h3>
+                <p><strong>Date:</strong> Dec 12, 2026</p>
+                <p><strong>Time:</strong> 7:00 PM onwards</p>
+                <p><strong>Venue:</strong> Royal Garden, Sangam Vihar</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="location-section">
+        <h2 class="section-title">Find the Venue</h2>
+        <div class="container">
+            <div class="map-wrapper">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.51731671234!2d77.2407673!3d28.5241477!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce14455555555%3A0x1234567890abcdef!2sNew%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" 
+                    width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+            <a href="https://maps.app.goo.gl/YourLinkHere" target="_blank" class="map-link">Open in Google Maps</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>Looking forward to celebrating with you! ✨</p>
+    </footer>
+
+    <script>
+        function scrollToEvents() {
+            document.getElementById('events').scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>
