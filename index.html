@@ -3,72 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wedding Invitation | Aarav & Diya</title>
+    <title>Royal Wedding Invitation</title>
     
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Great+Vibes&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700;900&family=Great+Vibes&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header class="hero">
-        <div class="overlay">
-            <div class="hero-content" data-aos="zoom-out" data-aos-duration="2000">
-                <p class="invite-text">SAVE THE DATE</p>
-                <h1 class="couple-names">Aarav & Diya</h1>
-                <div class="divider">✨</div>
-                <p class="wedding-date">12 DECEMBER 2026</p>
-                <button class="cta-btn" onclick="scrollToEvents()">View Events</button>
+        <div class="luxury-overlay">
+            <div class="hero-content" data-aos="zoom-out" data-aos-duration="2500">
+                <p class="top-label">TOGETHER WITH THEIR FAMILIES</p>
+                <h1 class="main-title">Aarav & Diya</h1>
+                <div class="gold-divider">
+                    <span class="line"></span>
+                    <span class="diamond">◆</span>
+                    <span class="line"></span>
+                </div>
+                <p class="invite-msg">Invite you to join us in the celebration of our love</p>
+                <h2 class="hero-date">DECEMBER 12, 2026</h2>
+                <button class="gold-btn" onclick="scrollToEvents()">OPEN INVITATION</button>
             </div>
         </div>
     </header>
 
     <section class="couple-section">
-        <h2 class="section-title" data-aos="fade-up">The Happy Couple</h2>
-        <div class="container flex-center">
-            <div class="couple-card" data-aos="fade-right" data-aos-delay="300">
-                <div class="img-frame">
-                    <img src="groom.jpg" alt="Aarav"> 
+        <div class="container">
+            <h2 class="section-heading" data-aos="fade-up">The Happy Couple</h2>
+            <div class="couple-flex">
+                <div class="person-card" data-aos="fade-right">
+                    <div class="large-frame">
+                        <img src="groom.jpg" alt="Aarav">
+                    </div>
+                    <h3>Aarav</h3>
+                    <p class="description">"A heart full of dreams..."</p>
                 </div>
-                <h3>Aarav</h3>
-                <p>The Groom</p>
-            </div>
-            <div class="heart-icon" data-aos="zoom-in" data-aos-delay="500">❤️</div>
-            <div class="couple-card" data-aos="fade-left" data-aos-delay="300">
-                <div class="img-frame">
-                    <img src="bride.jpg" alt="Diya">
+
+                <div class="heart-container" data-aos="zoom-in">
+                    <span class="big-heart">❤</span>
                 </div>
-                <h3>Diya</h3>
-                <p>The Bride</p>
+
+                <div class="person-card" data-aos="fade-left">
+                    <div class="large-frame">
+                        <img src="bride.jpg" alt="Diya">
+                    </div>
+                    <h3>Diya</h3>
+                    <p class="description">"Finding home in each other."</p>
+                </div>
             </div>
         </div>
     </section>
 
     <section id="events" class="events-section">
-        <h2 class="section-title" data-aos="fade-up">Wedding Schedule</h2>
-        <div class="container event-grid">
-            <div class="event-box" data-aos="fade-up" data-aos-delay="200">
-                <div class="event-icon">💍</div>
-                <h3>Engagement</h3>
-                <p>Dec 10, 2026 | 6:00 PM</p>
-                <p>Grand Imperial Hotel, Delhi</p>
+        <h2 class="section-heading gold-text" data-aos="fade-up">Wedding Events</h2>
+        <div class="container">
+            <div class="luxury-event-card" data-aos="flip-up">
+                <div class="event-details">
+                    <h3>The Engagement</h3>
+                    <p class="event-time">DEC 10, 2026 | 06:00 PM</p>
+                    <p class="event-venue">Hotel Grand Imperial, New Delhi</p>
+                </div>
             </div>
-            <div class="event-box" data-aos="fade-up" data-aos-delay="400">
-                <div class="event-icon">🔥</div>
-                <h3>The Wedding</h3>
-                <p>Dec 12, 2026 | 7:00 PM</p>
-                <p>Royal Garden, New Delhi</p>
+
+            <div class="luxury-event-card wedding-main" data-aos="flip-up" data-aos-delay="200">
+                <div class="event-details">
+                    <h3>The Grand Wedding</h3>
+                    <p class="event-time">DEC 12, 2026 | 07:00 PM</p>
+                    <p class="event-venue">Royal Garden, Sangam Vihar, New Delhi</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <section class="location-section">
-        <h2 class="section-title" data-aos="fade-up">Venue Location</h2>
+    <section class="map-section">
+        <h2 class="section-heading" data-aos="fade-up">The Royal Venue</h2>
         <div class="container" data-aos="zoom-in">
-            <div class="map-wrapper">
+            <div class="map-box">
                 <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14021.218320499033!2d77.2425!3d28.5292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce16467000001%3A0x6b772c67852f854b!2sSangam%20Vihar%2C%20New%20Delhi!5e0!3m2!1sen!2sin!4v1714550000000!5m2!1sen!2sin" 
-                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+                    src="http://googleusercontent.com/maps.google.com/7" 
+                    width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy">
                 </iframe>
             </div>
         </div>
@@ -76,11 +90,7 @@
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        AOS.init({
-            duration: 1200,
-            once: true
-        });
-
+        AOS.init({ duration: 1500, once: true });
         function scrollToEvents() {
             document.getElementById('events').scrollIntoView({ behavior: 'smooth' });
         }
